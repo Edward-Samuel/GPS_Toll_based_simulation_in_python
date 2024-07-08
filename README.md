@@ -1,33 +1,43 @@
 # GPS_Toll_based_simulation_in_python
 A Python-based simulation of a GPS-based toll collection system using SimPy, Geopandas, Shapely, and Geopy for vehicle movement, toll zone detection, toll calculation, and payment processing.
-## Overview
 
-This project is a simple user authentication and car management system built with Flask. It allows users to register, log in, and reset their password using security questions. Additionally, it supports managing car data and viewing car details with a map visualization using Folium.
+# GPS Toll-Based Simulation in Python
 
-## Features
+This project simulates a toll-based system using GPS data to track vehicle movement and calculate toll charges based on the vehicle's location. The application is built using Flask, SQLAlchemy, and SQLite.
 
-- User registration with username, password, security question, and security answer.
-- User login.
-- Password reset functionality with security question verification.
-- Car data management including viewing car details and visualizing GPS data on a map.
-- Geofence parameters for calculating toll based on distance traveled within a specified area.
-
-## Project Structure
-
-- `app.py`: Main Flask application file.
-- `users.csv`: CSV file for storing user information.
-- `templates/`: Directory containing HTML templates.
-  - `login.html`: Login page template.
-  - `register.html`: Registration page template.
-  - `forgot_password.html`: Password reset page template.
-  - `reset_password.html`: New password setup page template.
-  - `index.html`: Car management and viewing page template.
-  - `car_detail.html`: Car detail and map visualization page template.
-
-## Requirements
+## Prerequisites
 
 - Python 3.x
 - Flask
-- mysql-connector-python
-- geopy
-- folium
+- Flask-SQLAlchemy
+- Werkzeug
+
+## Team Members and Contributions
+
+**Member 1: ANIRUDH.K**
+- **Role**: Backend Developer
+- **Contributions**: 
+  - Implemented Flask for car registration and handling GPS data.
+  - Managed database interactions using SQLAlchemy.
+  - Developed API endpoints for vehicle data retrieval.
+
+**Member 2: JAASWIN.S**
+- **Role**: Frontend Developer
+- **Contributions**: 
+  - Developed the user interface using HTML and CSS.
+  - Integrated Leaflet.js for interactive maps.
+  - Designed forms for user login and car registration.
+
+**Member 3: EDWARD SAMUEL.L**
+- **Role**: Data Analyst & Geospatial Analyst
+- **Contributions**: 
+  - Analyzed GPS data for vehicle tracking.
+  - Used Geopy to calculate distances and implement geofencing for toll calculations.
+  - Provided insights on geospatial data for better accuracy in tolling.
+
+**Member 4: GOKUL.P**
+- **Role**: Simulation & Report Developer
+- **Contributions**: 
+  - Conducted simulations to test various toll calculation scenarios.
+  - Compiled and documented the project report.
+  - Ensured the simulation results aligned with the project requirements.
