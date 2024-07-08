@@ -23,13 +23,16 @@ This project simulates a system to calculate toll charges based on vehicle locat
 4. Log in using your username and password.
 5. Navigate through the application to register cars, view GPS data, and see toll charges.
 
-## Files and Folders
-
-- `app.py`: The main file to run the application.
-- `models.py`: Defines how data is stored.
-- `templates/`: Contains web page designs.
-- `static/`: Contains style and script files.
-- `users.csv`: Contains login details for users.
+## Files:
+1. `app (2).py`: Python script for the Flask application.
+2. `car_detail (1).html`: HTML file, likely displaying car details.
+3. `forgot_password.html`: HTML file for handling password recovery.
+4. `index (3).html`: HTML file, possibly another version of the index page.
+5. `index.html`: Main HTML file for the index or home page.
+6. `login.csv`: CSV file containing login details.
+7. `login.html`: HTML file for the login page.
+8. `register.html`: HTML file for user registration.
+9. `toll plaza.jpg`: Image file for a toll plaza.
 
 ## Important Notes
 
