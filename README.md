@@ -1,43 +1,42 @@
-# GPS_Toll_based_simulation_in_python
-A Python-based simulation of a GPS-based toll collection system using SimPy, Geopandas, Shapely, and Geopy for vehicle movement, toll zone detection, toll calculation, and payment processing.
+# GPS Toll-Based Simulation Project
 
-# GPS Toll-Based Simulation in Python
+This project simulates a system to calculate toll charges based on vehicle locations using GPS data.
 
-This project simulates a toll-based system using GPS data to track vehicle movement and calculate toll charges based on the vehicle's location. The application is built using Flask, SQLAlchemy, and SQLite.
+## Team Members
 
-## Prerequisites
+- ANIRUDH.K
+- JAASWIN.S
+- EDWARD SAMUEL.L
+- GOKUL.P
 
-- Python 3.x
-- Flask
-- Flask-SQLAlchemy
-- Werkzeug
+## How It Works
 
-## Team Members and Contributions
+1. **Car Registration**: Register your car in the system.
+2. **GPS Tracking**: The system tracks the location of registered cars using GPS data.
+3. **Toll Calculation**: Tolls are calculated based on the location of the car.
 
-**Member 1: ANIRUDH.K**
-- **Role**: Backend Developer
-- **Contributions**: 
-  - Implemented Flask for car registration and handling GPS data.
-  - Managed database interactions using SQLAlchemy.
-  - Developed API endpoints for vehicle data retrieval.
+## How to Use
 
-**Member 2: JAASWIN.S**
-- **Role**: Frontend Developer
-- **Contributions**: 
-  - Developed the user interface using HTML and CSS.
-  - Integrated Leaflet.js for interactive maps.
-  - Designed forms for user login and car registration.
+1. Open the project directory on your computer.
+2. Start the application.
+3. Open your web browser and go to `http://127.0.0.1:5000/`.
+4. Log in using your username and password.
+5. Navigate through the application to register cars, view GPS data, and see toll charges.
 
-**Member 3: EDWARD SAMUEL.L**
-- **Role**: Data Analyst & Geospatial Analyst
-- **Contributions**: 
-  - Analyzed GPS data for vehicle tracking.
-  - Used Geopy to calculate distances and implement geofencing for toll calculations.
-  - Provided insights on geospatial data for better accuracy in tolling.
+## Files and Folders
 
-**Member 4: GOKUL.P**
-- **Role**: Simulation & Report Developer
-- **Contributions**: 
-  - Conducted simulations to test various toll calculation scenarios.
-  - Compiled and documented the project report.
-  - Ensured the simulation results aligned with the project requirements.
+- `app.py`: The main file to run the application.
+- `models.py`: Defines how data is stored.
+- `templates/`: Contains web page designs.
+- `static/`: Contains style and script files.
+- `users.csv`: Contains login details for users.
+
+## Important Notes
+
+- Make sure your passwords are secure.
+- Set a strong secret key to protect your login sessions.
+- The project uses a simple database which can be changed if needed.
+
+## License
+
+This project is licensed under the MIT License.
